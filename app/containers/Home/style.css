@@ -1,0 +1,76 @@
+/* Home Styles */
+* {
+  margin: 0;
+}
+
+.container {
+  display:flex;
+  flex-direction:column;
+  min-height:100vh;
+}
+
+body {
+  background-color: #F7F7F7;
+}
+
+.head{
+  width: 100%;
+  height: 100vh;
+  background-color: #333333;
+  background-image: url('http://www.creowntech.com/wp-content/uploads/2016/01/Open-Source-Word-Cloud.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.begin-title{
+  width: 100%;
+  background-color: #FE6901;
+  color: white;
+  font-family: 'Open Sans';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.begin-title h1{
+  font-size: 3em;
+  letter-spacing: 4px;
+}
+
+.begin-title h3{
+  font-size: 1.8em;
+  width: 60%;
+  text-align: center;
+  margin: 20px;
+}
+
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.categories {
+  width: 80%;
+  margin: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+.end-title{
+  width: 100%;
+  height: 30vh;
+  background-color: #666666;
+}
+
+.footer{
+  width: 100%;
+  height: 40vh;
+  background-color: #333333;
+}

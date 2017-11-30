@@ -1,0 +1,22 @@
+/* Category Styles */
+.category {
+  display: flex;
+  flex-direction: row;
+  width: 23%;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  height: 50px;
+  margin: 0.75%;
+}
+
+.cat-title {
+  align-self: center;
+  margin: 5px;
+}
+
+.cat-thumb img {
+  max-width: 40px;
+  max-height: 40px;
+  align-self: center;
+  margin: 5px;
+}
